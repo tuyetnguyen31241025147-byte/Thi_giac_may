@@ -1,0 +1,29 @@
+{
+ "bg_method": "lab",
+ "fg_thresh": 25,
+ "canny_lo": 60,
+ "canny_hi": 122,
+ "defect_ratio": 0.05,
+ "strong_ratio": 1.0,
+ "erode_mm": 2.5,
+ "defect_de_min": 4.0,
+ "defect_k": 3.0,
+ "defect_blob_mm2": 1000000000.0,
+ "strong_blob_mm2": 1000000000.0,
+ "morph_mm": 2.0,
+ "min_blob_mm2": 300.0,
+ "min_defect_mm2": 5.0,
+ "area_threshold_mm2": 1590.0,
+ "min_defect_frames": 2,
+ "skin_deg": 3,
+ "green_lo": [
+  25,
+  40,
+  40
+ ],
+ "green_hi": [
+  90,
+  255,
+  255
+ ]
+}
